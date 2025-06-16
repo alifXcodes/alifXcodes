@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    font-family: "WDXL Lubrifont SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+.logo img:hover{
+    height: 120px;
+    width: 120px;
+    transition-duration: .5s;
+}
+.logo h1{
+    margin-top: 5%;
+    padding: 2%;
+    width: 200px;
+    cursor: pointer;
+}
+
+.logo{
+    display: flex;
+    margin-left: 5%;
+}
+
+.top_bar{
+display: flex;
+margin-top: 3%;
+}
+
+/* nav div */
+nav{margin-left: auto;
+    background-color: #698ce462;
+    height: 50px;
+    margin-top: 1%;
+    padding: 10px;
+    box-shadow: 0 2px 5px #192a569c;
+}
+
+
+/* navihation bar style  */
+#main_manu ul{
+    
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    
+}
+
+#main_manu ul li{
+    margin: 0 60px;
+    position: relative;
+}
+
+#main_manu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+#main_manu li :hover{
+   color: #192a56;
+   font-size: 18px;
+   transition-duration: .50s;
+   
+}
+
+      /* sub manu  */
+#main_manu ul ul{
+    top: -50px;
+    left: 0;
+    height: 150px;
+    width: 400px;
+    display: none;
+    padding: 0;
+    position: absolute;
+    background-color: #f5f6fa;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+#main_manu ul ul::after{
+   
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+#main_manu ul li:hover ul{
+     display: block;
+     top: 39px;
+     
+     
+     
+}
+
+#main_manu ul ul li{
+  display: inline-block;
+  padding: 20px;
+}
+
+#main_manu li li{
+  margin-left: -5px;
+}
+
+/* body Section */
+/* body 1 */
+.body_section{
+    height: 100%;
+    width: 100%;
+    margin-top: 7%;
+}
+.body_1{
+    display: grid;
+    grid-template-columns: 49% 2% 49%;
+    margin-bottom: 150px;
+}
+.my_photo{
+    height: 300px;
+    width: 300px;
+    border: solid #f5f6fa 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    margin-left: 50%;
+    box-shadow: 0 3px 10px #192a56;
+}
+#myPhoto{
+    height: 550px;
+    margin-top: -120px;
+    margin-left: -30px; 
+}
+#myPhoto:hover{
+    height: 570px;
+    margin-top: -130px;
+    margin-left: -40px; 
+    transition-duration: .5s;
+}
+.border1{
+    margin: auto;
+    height: 300px;
+    width: 1%;
+    background-color: #192a56;
+}
+.my_self{
+    margin: auto;
+    margin-right: 40%;
+    width: 70%;
+}
+.my_self h3{
+    font-size: 60px;
+    color: #192a5644;
+    margin-bottom: 30px;
+}
+.my_self h1{
+    font-size: 30px;
+    color: #192a56;
+    margin-bottom: 5px;
+}
+.my_self p{
+    color: #192a56;
+    margin-bottom: 20px;
+}
+.contract_1{
+    text-decoration: none;
+    background-color: #192a56;
+    padding: 12px 20px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.contract_1:hover{
+    background-color: #273c75;
+}
+
+/* body 2 What I do */
+.our_work{
+    background-color: #dcdde1;
+    height: 500px;
+    width: 80%;
+    padding: 5%;
+    margin: auto;
+    border-radius: 10px;
+}
+.our_work i{
+    font-size: 30px;
+    color: #192a56;
+    opacity: .6;
+}
+.border2{
+    margin-top: -20px;
+    height: 35px;
+    padding: 10px;
+    width: 5px;
+    background-color: #ffffff;
+}
+.border2 h1{
+    width: 700px;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: -30px;
+    font-size: 50px;
+    color: #192a56;
+    cursor: pointer;
+}
+.border2 h1:hover{
+    font-size: 55px;
+    transition-duration: .5s;
+}
+.work i{
+     font-size: 30px;
+    color: #192a56;
+    opacity: 1;
+    margin-top: 10px;
+}
+.work{
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+}
+.web_design{
+    height: 120px;
+    background-color: #f5f6fa;
+    padding: 20px;
+    border-radius: 10px;
+    color: #192a56;
+}
+.web_design:hover{
+    padding: 30px;
+    box-shadow: 0 2px 5px #192a569c;
+    transition-duration: .5s;
+}
+.e_sells{
+    height: 120px;
+    background-color: #f5f6fa;
+    padding: 20px;
+    border-radius: 10px;
+    color: #192a56;
+}
+.e_sells:hover{
+    padding: 30px;
+    box-shadow: 0 2px 5px #192a569c;
+    transition-duration: .5s;
+}
+.graphic_design{
+    height: 120px;
+    background-color: #f5f6fa;
+    padding: 20px;
+    border-radius: 10px;
+    color: #192a56;
+}
+.graphic_design:hover{
+    padding: 30px;
+    box-shadow: 0 2px 5px #192a569c;
+    transition-duration: .5s;
+}
+.marketing{
+    height: 120px;
+    background-color: #f5f6fa;
+    padding: 20px;
+    border-radius: 10px;
+    color: #192a56;
+}
+.marketing:hover{
+    padding: 30px;
+    box-shadow: 0 2px 5px #192a569c;
+    transition-duration: .5s;
+}
+
+/* body 3 testimonial */
+.testimonial{
+    background-color: #dcdde1;
+    height: 500px;
+    width: 80%;
+    padding: 5%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+.remark{
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+}
+.testimonial_text i{
+    font-size: 30px;
+    color: #192a56;
+    opacity: .6;
+}
+.remarks1{
+    height: 120px;
+    background-color: #f5f6fa;
+    padding: 20px;
+    border-radius: 10px;
+    color: #192a56;
+    border: solid #192a56 1px;
+}
+.remarks1:hover{
+    padding: 30px;
+    box-shadow: 0 2px 5px #192a569c;
+    transition-duration: .5s;
+    
+}
+.remarks2{
+    height: 120px;
+    background-color: #f5f6fa;
+    padding: 20px;
+    border-radius: 10px;
+    color: #192a56;
+    border: solid #192a56 1px;
+}
+.remarks2:hover{
+    padding: 30px;
+    box-shadow: 0 2px 5px #192a569c;
+    transition-duration: .5s;
+}
+.remarks3{
+    height: 120px;
+    background-color: #f5f6fa;
+    padding: 20px;
+    border-radius: 10px;
+    color: #192a56;
+    border: solid #192a56 1px;
+}
+.remarks3:hover{
+    padding: 30px;
+    box-shadow: 0 2px 5px #192a569c;
+    transition-duration: .5s;
+}
+.remarks4{
+    height: 120px;
+    background-color: #f5f6fa;
+    padding: 20px;
+    border-radius: 10px;
+    color: #192a56;
+    border: solid #192a56 1px;
+}
+.remarks4:hover{
+    padding: 30px;
+    box-shadow: 0 2px 5px #192a569c;
+    transition-duration: .5s;
+}

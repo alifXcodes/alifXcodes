@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+  #main_manu ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #f5f6fa;
+    text-align: center;
+  }
+
+  #menu-toggle:checked + .menu-icon + #nav-list {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  #main_manu ul li {
+    margin: 15px 0;
+  }
+
+  #main_manu ul ul {
+    position: static;
+    display: none;
+  }
+
+  #main_manu ul li:hover ul {
+    display: block;
+  }
+}

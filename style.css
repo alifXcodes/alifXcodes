@@ -18,6 +18,7 @@
     padding: 2%;
     width: 200px;
     cursor: pointer;
+    color: #192a56;
 }
 
 .logo{
@@ -41,8 +42,23 @@ nav{margin-left: auto;
 
 
 /* navihation bar style  */
+/* Hide checkbox */
+#menu-toggle {
+  display: none;
+}
+
+/* Style the hamburger icon */
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+#main_manu i{
+ display: none;
+}
 #main_manu ul{
-    
     list-style: none;
     position: relative;
     display: flex;
@@ -51,7 +67,6 @@ nav{margin-left: auto;
     margin: 0;
     padding: 0;
     height: 60px;
-    
 }
 
 #main_manu ul li{
@@ -100,10 +115,7 @@ nav{margin-left: auto;
 
 #main_manu ul li:hover ul{
      display: block;
-     top: 39px;
-     
-     
-     
+     top: 39px;   
 }
 
 #main_manu ul ul li{
@@ -308,6 +320,10 @@ nav{margin-left: auto;
     color: #192a56;
     border: solid #192a56 1px;
 }
+.remarks1 i{
+    font-size: 60px;
+    margin-top: -60px;
+}
 .remarks1:hover{
     padding: 30px;
     box-shadow: 0 2px 5px #192a569c;
@@ -322,6 +338,10 @@ nav{margin-left: auto;
     color: #192a56;
     border: solid #192a56 1px;
 }
+.remarks2 i{
+    font-size: 60px;
+    margin-top: -60px;
+}
 .remarks2:hover{
     padding: 30px;
     box-shadow: 0 2px 5px #192a569c;
@@ -334,6 +354,10 @@ nav{margin-left: auto;
     border-radius: 10px;
     color: #192a56;
     border: solid #192a56 1px;
+}
+.remarks3 i{
+    font-size: 60px;
+    margin-top: -60px;
 }
 .remarks3:hover{
     padding: 30px;
@@ -348,8 +372,89 @@ nav{margin-left: auto;
     color: #192a56;
     border: solid #192a56 1px;
 }
+.remarks4 i{
+    font-size: 60px;
+    margin-top: -60px;
+}
 .remarks4:hover{
     padding: 30px;
     box-shadow: 0 2px 5px #192a569c;
     transition-duration: .5s;
+}
+
+/* form section */
+form{
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    font-size: 20px;
+}
+fieldset{
+   padding: 5%;
+   border-radius: 10px;
+   border: #192a56 solid 1px;
+}
+legend{
+    margin: auto;
+    font-size: 30px;
+    color: #192a56;
+}
+label{
+    margin-left: 25%;
+}
+input{
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    padding: 10px;
+    border: #192a56 solid 1px;
+    border-radius: 10px;
+}
+.name{
+    width: 50%;
+    margin-bottom: 2%;
+}
+textarea{
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    height: 200px;
+    width: 50%;
+    border: #192a56 solid 1px;
+    border-radius: 10px;
+}
+.submit{
+    display: inline-block;
+    background-color: #192a56;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 30%;
+}
+.submit:hover{
+    background-color: #273c75;
+}
+.reset{
+        display: inline-block;
+    background-color: #192a56;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 3%;
+}
+.reset:hover{
+    background-color: #273c75;
+}
+
+/* footer section */
+.foot{
+    margin-top: 10%;
+    background-color: #192a56;
+    height: 100px;
+    width: 100%;
+}
+#foot_logo{
+    margin-top: 10px; 
+    height: 100px;
+    width: 100px;
 }

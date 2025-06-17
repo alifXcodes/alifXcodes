@@ -9,6 +9,7 @@
 
 <!-- CSS file -->
  <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="responsive.css">
 
 <!-- text font link -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +22,7 @@
 <body>
     <header>
     <!-- top bar -->
-     <div class="top_bar">
+     <div class="top_bar"> 
         <div class="logo">
             <a href="#"><img src="file/logo blue bg removed.png" alt="alifXcodes"></a>
             <h1>Saifullah Alif</h1>
@@ -29,6 +30,13 @@
         <!-- navbar -->
               <nav>
                 <div id="main_manu">
+                  <!-- nav resposive eliment -->
+                   <input type="checkbox" id="menu-toggle">
+                  <label for="menu-toggle" class="menu-icon">
+                  <i class="fa-solid fa-bars"></i>
+                  </label> 
+  
+
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Sevices <i class="fa-solid fa-caret-down"></i></a>
@@ -91,14 +99,40 @@
              <i class="fa-solid fa-quote-left"></i><div class="border2"><h1>Testimonials</h1></div>
         </div>
         <div class="remark">
-        <div class="remarks1"></div>
-        <div class="remarks2"></div>
-         <div class="remarks3"></div>
-          <div class="remarks4"></div>
+        <div class="remarks1">
+            <i class="fa-solid fa-user"></i>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sit velit porro consequatur sunt corporis laboriosam accusamus consectetur dolor? Voluptatibus!</p>
+        </div>
+        <div class="remarks2"><i class="fa-solid fa-user"></i>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sit velit porro consequatur sunt corporis laboriosam accusamus consectetur dolor? Voluptatibus!</p></div>
+         <div class="remarks3"><i class="fa-solid fa-user"></i>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sit velit porro consequatur sunt corporis laboriosam accusamus consectetur dolor? Voluptatibus!</p></div>
+          <div class="remarks4"><i class="fa-solid fa-user"></i>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sit velit porro consequatur sunt corporis laboriosam accusamus consectetur dolor? Voluptatibus!</p></div>
         </div>
     </div>
     </div>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Your Comment</legend>
+            <label for="name">Your Name :</label>
+            <input class="name" type="text" required>
+            <label for="Comment">Comment :</label>
+            <textarea name="Comment" id="comment"></textarea>
+            <input class="submit" type="submit">
+            <input class="reset" type="reset">
+        </fieldset>
+        
+    </form>
    </section>
+   <footer>
+    <div class="foot">
+        <div class="foot_logo">
+          <img id="foot_logo" src="file/logo2.png" alt="alifXcodes">
+        </div>
+        <div class="social_media"></div>
+    </div>
+   </footer>
 
 </body>
 </html>
